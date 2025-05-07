@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  process.env.DATABASE_URL, // récupère depuis les variables Render
+  process.env.DATABASE_URL,
   {
     dialect: 'postgres',
     protocol: 'postgres',
